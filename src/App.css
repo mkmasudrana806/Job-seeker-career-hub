@@ -1,0 +1,16 @@
+/* here is the global style or universal style code  */
+/* all button design  */
+.primary-btn{
+  background-color: blueviolet;
+  color: white;
+  padding: 5px 10px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.primary-btn:hover{
+  background-color: #8810f8;
+}

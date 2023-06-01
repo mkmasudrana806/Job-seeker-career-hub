@@ -1,0 +1,290 @@
+[
+    {
+        "companyName": "Google",
+        "companyLogo": "/assets/logos/google.png",
+        "jobTitle": "Software Engineer",
+        "jobRole": "Backend Developer",
+        "jobTags": [
+            "Java",
+            "Spring",
+            "RESTful API"
+        ],
+        "jobLocation": "San Francisco, CA",
+        "salary": {
+            "min": 90,
+            "max": 120,
+            "currency": "USD"
+        },
+        "jobID": "123456",
+        "jobDescription": "We are seeking a skilled Backend Developer to join our software engineering team. You will be responsible for designing and implementing server-side logic, collaborating with cross-functional teams, and ensuring high-performance and availability of our applications.",
+        "requirements": [
+            "Bachelor's degree in Computer Science or related field",
+            "Strong knowledge of Java and Spring framework",
+            "Experience building and maintaining RESTful APIs"
+        ],
+        "responsibilities": [
+            "Develop and maintain scalable server-side applications",
+            "Collaborate with front-end developers to integrate user-facing elements",
+            "Troubleshoot and debug production issues"
+        ],
+        "educationalRequirement": "Bachelor's degree in Computer Science or related field",
+        "experience": "2-5 years",
+        "contactInformation": {
+            "phoneNumber": "+1 (123) 456-7890",
+            "email": "jobs@acmecorp.com",
+            "address": "123 Main St, San Francisco, CA"
+        }
+    },
+    {
+        "companyName": "Meta",
+        "companyLogo": "/assets/logos/meta.png",
+        "jobTitle": "Data Scientist",
+        "jobRole": "Machine Learning Engineer",
+        "jobTags": [
+            "Python",
+            "TensorFlow",
+            "Data Analysis"
+        ],
+        "jobLocation": "New York, NY",
+        "salary": {
+            "min": 100,
+            "max": 150,
+            "currency": "USD"
+        },
+        "jobID": "234567",
+        "jobDescription": "We are looking for a talented Machine Learning Engineer to join our data science team. You will work on developing and implementing machine learning models, analyzing large datasets, and providing insights to drive business decisions.",
+        "requirements": [
+            "Master's or Ph.D. degree in Computer Science, Statistics, or related field",
+            "Proficiency in Python and machine learning libraries such as TensorFlow",
+            "Experience with data preprocessing, feature engineering, and model evaluation"
+        ],
+        "responsibilities": [
+            "Develop and deploy machine learning models",
+            "Analyze and interpret complex data sets",
+            "Collaborate with cross-functional teams to identify business opportunities"
+        ],
+        "educationalRequirement": "Master's or Ph.D. degree in Computer Science, Statistics, or related field",
+        "experience": "3-7 years",
+        "contactInformation": {
+            "phoneNumber": "+1 (987) 654-3210",
+            "email": "careers@xyzcorp.com",
+            "address": "456 Elm St, New York, NY"
+        }
+    },
+    {
+        "companyName": "Tesla",
+        "companyLogo": "/assets/logos/tesla.png",
+        "jobTitle": "Marketing Manager",
+        "jobRole": "Digital Marketing Specialist",
+        "jobTags": [
+            "SEO",
+            "Social Media",
+            "Content Marketing"
+        ],
+        "jobLocation": "Los Angeles, CA",
+        "salary": {
+            "min": 80,
+            "max": 100,
+            "currency": "USD"
+        },
+        "jobID": "345678",
+        "jobDescription": "We are seeking a skilled Digital Marketing Specialist to develop and execute online marketing strategies. You will be responsible for managing social media campaigns, optimizing website content, and analyzing campaign performance.",
+        "requirements": [
+            "Bachelor's degree in Marketing or related field",
+            "Proven experience in digital marketing and SEO techniques",
+            "Proficiency in social media management tools"
+        ],
+        "responsibilities": [
+            "Plan and execute digital marketing campaigns",
+            "Monitor and analyze website and social media metrics",
+            "Collaborate with internal teams to create engaging content"
+        ],
+        "educationalRequirement": "Bachelor's degree in Marketing or related field",
+        "experience": "4-6 years",
+        "contactInformation": {
+            "phoneNumber": "+1 (555) 123-4567",
+            "email": "hr@abccorp.com",
+            "address": "789 Oak St, Los Angeles, CA"
+        }
+    },
+    {
+        "companyName": "Airbnb",
+        "companyLogo": "/assets/logos/airbnb.png",
+        "jobTitle": "Sales Manager",
+        "jobRole": "Regional Sales Director",
+        "jobTags": [
+            "B2B Sales",
+            "Client Relationship",
+            "Sales Strategy"
+        ],
+        "jobLocation": "Chicago, IL",
+        "salary": {
+            "min": 120,
+            "max": 150,
+            "currency": "USD"
+        },
+        "jobID": "456789",
+        "jobDescription": "We are seeking an experienced Regional Sales Director to lead our sales team and drive revenue growth. You will be responsible for developing sales strategies, building strong client relationships, and achieving sales targets.",
+        "requirements": [
+            "Bachelor's degree in Business Administration or related field",
+            "Proven track record in B2B sales and sales management",
+            "Excellent communication and negotiation skills"
+        ],
+        "responsibilities": [
+            "Develop and execute sales strategies to achieve revenue goals",
+            "Build and maintain strong relationships with key clients",
+            "Lead and motivate the sales team"
+        ],
+        "educationalRequirement": "Bachelor's degree in Business Administration or related field",
+        "experience": "8-10 years",
+        "contactInformation": {
+            "phoneNumber": "+1 (888) 567-8901",
+            "email": "jobs@pqrcorp.com",
+            "address": "321 Pine St, Chicago, IL"
+        }
+    },
+    {
+        "companyName": "Figma",
+        "companyLogo": "/assets/logos/figma.png",
+        "jobTitle": "Graphic Designer",
+        "jobRole": "UI/UX Designer",
+        "jobTags": [
+            "Adobe Creative Suite",
+            "Wireframing",
+            "Responsive Design"
+        ],
+        "jobLocation": "Seattle, WA",
+        "salary": {
+            "min": 70,
+            "max": 90,
+            "currency": "USD"
+        },
+        "jobID": "567890",
+        "jobDescription": "We are looking for a talented UI/UX Designer to create visually appealing and user-friendly interfaces. You will work closely with the design and development teams to create wireframes, prototypes, and final designs.",
+        "requirements": [
+            "Bachelor's degree in Graphic Design or related field",
+            "Proficiency in Adobe Creative Suite and wireframing tools",
+            "Strong understanding of user-centered design principles"
+        ],
+        "responsibilities": [
+            "Create wireframes, prototypes, and visual designs for web and mobile applications",
+            "Collaborate with cross-functional teams to gather design requirements",
+            "Conduct usability testing and iterate designs based on user feedback"
+        ],
+        "educationalRequirement": "Bachelor's degree in Graphic Design or related field",
+        "experience": "2-4 years",
+        "contactInformation": {
+            "phoneNumber": "+1 (777) 456-1234",
+            "email": "careers@lmncorp.com",
+            "address": "987 Maple St, Seattle, WA"
+        }
+    },
+    {
+        "companyName": "Microsoft",
+        "companyLogo": "/assets/logos/microsoft.png",
+        "jobTitle": "Financial Analyst",
+        "jobRole": "Investment Analyst",
+        "jobTags": [
+            "Financial Modeling",
+            "Investment Research",
+            "Portfolio Management"
+        ],
+        "jobLocation": "London, UK",
+        "salary": {
+            "min": 60,
+            "max": 80,
+            "currency": "GBP"
+        },
+        "jobID": "678901",
+        "jobDescription": "We are seeking a skilled Investment Analyst to provide financial analysis and investment recommendations. You will conduct investment research, build financial models, and assist in portfolio management.",
+        "requirements": [
+            "Bachelor's degree in Finance, Economics, or related field",
+            "Strong analytical and quantitative skills",
+            "Knowledge of financial modeling and investment analysis"
+        ],
+        "responsibilities": [
+            "Conduct investment research and analyze financial data",
+            "Build and maintain financial models to evaluate investment opportunities",
+            "Assist in portfolio management activities"
+        ],
+        "educationalRequirement": "Bachelor's degree in Finance, Economics, or related field",
+        "experience": "3-5 years",
+        "contactInformation": {
+            "phoneNumber": "+44 (0) 1234 567890",
+            "email": "recruitment@efgcorp.com",
+            "address": "456 High St, London, UK"
+        }
+    },
+    {
+        "companyName": "UNICEFF",
+        "companyLogo": "/assets/logos/unicef.png",
+        "jobTitle": "Human Resources Manager",
+        "jobRole": "Talent Acquisition Specialist",
+        "jobTags": [
+            "Recruitment",
+            "Interviewing",
+            "HR Policies"
+        ],
+        "jobLocation": "Toronto, Canada",
+        "salary": {
+            "min": 80,
+            "max": 100,
+            "currency": "CAD"
+        },
+        "jobID": "789012",
+        "jobDescription": "We are looking for a talented Talent Acquisition Specialist to join our HR team. You will be responsible for attracting and selecting qualified candidates, conducting interviews, and ensuring compliance with HR policies and procedures.",
+        "requirements": [
+            "Bachelor's degree in Human Resources or related field",
+            "Proven experience in full-cycle recruiting and talent acquisition",
+            "Knowledge of HR laws and regulations"
+        ],
+        "responsibilities": [
+            "Manage end-to-end recruitment process for various positions",
+            "Conduct interviews and assess candidates' qualifications",
+            "Develop and implement recruitment strategies"
+        ],
+        "educationalRequirement": "Bachelor's degree in Human Resources or related field",
+        "experience": "5-8 years",
+        "contactInformation": {
+            "phoneNumber": "+1 (999) 567-1234",
+            "email": "hr@rstcorp.com",
+            "address": "789 Queen St, Toronto, Canada"
+        }
+    },
+    {
+        "companyName": "Netflix",
+        "companyLogo": "/assets/logos/netflix.png",
+        "jobTitle": "Product Manager",
+        "jobRole": "Product Owner",
+        "jobTags": [
+            "Product Development",
+            "Agile Methodology",
+            "Market Research"
+        ],
+        "jobLocation": "Berlin, Germany",
+        "salary": {
+            "min": 70,
+            "max": 90,
+            "currency": "EUR"
+        },
+        "jobID": "890123",
+        "jobDescription": "We are seeking an experienced Product Owner to lead the development and delivery of our products. You will collaborate with cross-functional teams, gather customer feedback, and define product requirements.",
+        "requirements": [
+            "Bachelor's degree in Business Administration or related field",
+            "Proven experience as a Product Owner or Product Manager",
+            "Knowledge of Agile development methodologies"
+        ],
+        "responsibilities": [
+            "Define product vision and roadmap",
+            "Gather and prioritize product requirements",
+            "Collaborate with engineering and design teams to deliver high-quality products"
+        ],
+        "educationalRequirement": "Bachelor's degree in Business Administration or related field",
+        "experience": "4-6 years",
+        "contactInformation": {
+            "phoneNumber": "+49 (0) 1234 567890",
+            "email": "careers@ghicorp.com",
+            "address": "321 Friedrichstrasse, Berlin, Germany"
+        }
+    }
+]

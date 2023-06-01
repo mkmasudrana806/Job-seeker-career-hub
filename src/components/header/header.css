@@ -1,0 +1,29 @@
+.header{
+margin-top: 20px;
+}
+.header, .nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.nav-title{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+color: #1A1919;
+}
+.nav-items a{
+    font-size: 18px;
+    font-weight: 500;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 8px;
+}
+.nav-items a:hover{
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
+    color: blueviolet;
+}

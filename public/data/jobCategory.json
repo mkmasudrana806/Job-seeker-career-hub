@@ -1,0 +1,28 @@
+{
+    "jobCategories": [
+        {
+            "icon": "/assets/icons/creative.png",
+            "title": "Creative Designer",
+            "jobNumber": 42,
+            "categoryID": "001"
+        },
+        {
+            "icon": "/assets/icons/engineering.png",
+            "title": "Software Engineer",
+            "jobNumber": 78,
+            "categoryID": "002"
+        },
+        {
+            "icon": "/assets/icons/account finance.png",
+            "title": "Account & Finance",
+            "jobNumber": 23,
+            "categoryID": "003"
+        },
+        {
+            "icon": "/assets/icons/marketing sales.png",
+            "title": "Marketing & Sales",
+            "jobNumber": 65,
+            "categoryID": "004"
+        }
+    ]
+}
