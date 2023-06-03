@@ -1,6 +1,7 @@
 /* here is the global style or universal style code  */
 .app{
   font-family: 'manpare';
+  font-style: normal;
 }
 p{
   font-size: 18px;
@@ -13,7 +14,7 @@ p{
   background-color: blueviolet;
   color: white;
   padding: 0px 15px;
-  height: 50px;
+  height: 47px;
   width: max-content;
   font-size: 17px;
   display: flex;

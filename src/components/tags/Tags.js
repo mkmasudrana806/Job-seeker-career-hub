@@ -1,8 +1,8 @@
 import React from "react";
 import "./tags.css";
 
-const Tags = () => {
-  return <div className="tags">Java</div>;
+const Tags = ({ tag }) => {
+  return <div className="tags">{tag}</div>;
 };
 
 export default Tags;

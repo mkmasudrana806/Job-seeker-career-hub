@@ -2,11 +2,11 @@ import React, { useContext } from "react";
 import { JobsContext } from "../../contextProvider/ContextProvider";
 import SingleJobCart from "./SingleJobCart";
 import "./jobs.css";
-import { Link } from "react-router-dom";
 
-const Jobs = (show = 4) => {
+
+const Jobs = ({ value = 4 }) => {
   let { jobs } = useContext(JobsContext);
-   jobs = jobs.slice(0, 4);
+  jobs = jobs.slice(0, value);
   return (
     <div className="jobs-container">
       {jobs.map((job) => (

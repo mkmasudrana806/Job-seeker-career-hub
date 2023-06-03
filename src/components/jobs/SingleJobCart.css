@@ -11,13 +11,11 @@
     margin-bottom: 20px;
 }
 .job-title{
-font-style: normal;
 font-weight: 800;
 font-size: 24px;
 color: #474747;
 }
 .company-name{
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     color: #575757;
@@ -39,4 +37,5 @@ color: #757575;
 .tags-container{
     display: flex;
     margin-right: 20px;
+    flex-wrap: wrap;
 }

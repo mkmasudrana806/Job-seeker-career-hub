@@ -13,7 +13,7 @@ const Main = () => {
       <Container>
         <Outlet></Outlet>
       </Container>
-      <div className="footer-section">
+      <div className="mt-5" style={{ backgroundColor: "#1A1919" }}>
         <Footer></Footer>
       </div>
     </div>
