@@ -1,0 +1,50 @@
+.apllied-jobs-container{
+    margin-top: 50px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 20px;
+    border-radius: 8px;
+}
+.applied-job-cart{
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    column-gap:20px;
+}
+.applied-job-cart:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.job-cart-img{
+    width: 200px;
+    height: 200px;
+    background: #eceaea;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.job-cart-img img{
+    height: 40px;
+    width: 120px;
+}
+.applied-cart-body{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media  screen and (max-width:576px) {
+    .applied-job-cart{
+        padding: 10px;
+        margin-bottom: 25px;
+        column-gap:10px;
+    }
+    .apllied-jobs-container{
+        margin-top: 50px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        padding: 5px;
+    }
+}
