@@ -1,17 +1,23 @@
 import React from "react";
+import "./hero.css";
 
 const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-text">
-        <h1>One Step Closer To Your Dream Job</h1>
+        <h1 className="hero-title">
+          <span className="">One Step</span> Closer To Your{" "}
+          <span className="primary-color">Dream Job</span>
+        </h1>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi beatae
-          obcaecati cum voluptate nobis voluptatibus, iure, laudantium, neque
-          magnam magni omnis officiis sit. Fuga sequi unde sit eaque sint.
-          Molestias?
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+          officia reiciendis dignissimos optio nihil ratione fugit vel ducimus a
+          quae iure enim quas neque qui, vero, aperiam mollitia tenetur magni.
         </p>
         <div className="primary-btn">Get Started</div>
+      </div>
+      <div className="hero-image">
+        <img src="" alt="" />
       </div>
     </div>
   );

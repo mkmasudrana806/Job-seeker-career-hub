@@ -1,0 +1,16 @@
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+.hero img{
+    width: 100%;
+    height: 100%;
+}
+.hero-title{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 70px;
+color: #1A1919;
+}
