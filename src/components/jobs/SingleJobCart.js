@@ -6,7 +6,6 @@ import Tags from "../tags/Tags";
 import { Link } from "react-router-dom";
 
 const SingleJobCart = ({ job }) => {
-  console.log(job);
   const {
     companyLogo,
     companyName,
@@ -17,6 +16,7 @@ const SingleJobCart = ({ job }) => {
     jobID,
     jobRole,
   } = job;
+
   return (
     <div className="single-job-cart">
       <img src={companyLogo} alt="" />
@@ -24,9 +24,9 @@ const SingleJobCart = ({ job }) => {
       <h4 className="job-role">{jobRole}</h4>
       <p className="company-name">{companyName}</p>
       <div className="tags-container">
-      {
-        jobTags.map((tag, index) => <Tags tag={tag} key={index}></Tags>)
-      }
+        {jobTags.map((tag, index) => (
+          <Tags tag={tag} key={index}></Tags>
+        ))}
       </div>
       <div className="job-footer">
         <p className="job-location">
@@ -38,7 +38,9 @@ const SingleJobCart = ({ job }) => {
           Salary: {salary?.min}k-{salary?.max}k
         </p>
       </div>
-      <Link className="primary-btn">View Details</Link>
+      <Link to={`/job-details/${jobID}`} className="primary-btn">
+        View Details
+      </Link>
     </div>
   );
 };
