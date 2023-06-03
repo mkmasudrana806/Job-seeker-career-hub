@@ -6,7 +6,6 @@ import "./categories.css";
 const Categories = () => {
   const { jobCategory } = useContext(JobsContext);
   const categories = jobCategory || [];
-  console.log(categories);
   return (
     <div className="job-categories">
       {categories.map((category) => (

@@ -1,19 +1,25 @@
 /* here is the global style or universal style code  */
+.app{
+  font-family: 'manpare';
+}
 p{
   font-size: 18px;
+}
+.hero-section, .job-category-section, .featured-jobs-section{
+  margin-top: 80px;
 }
 /* all button design  */
 .primary-btn{
   background-color: blueviolet;
   color: white;
-  padding: 3px 12px;
+  padding: 0px 15px;
   height: 50px;
   width: max-content;
-  font-size: 18px;
+  font-size: 17px;
   display: flex;
   align-items: center;
   border-radius: 8px;
-  cursor: pointer;
+  text-decoration: none;
 }
 .primary-btn:hover{
   background-color: #8810f8;
@@ -23,3 +29,4 @@ p{
 .primary-color{
   color: blueviolet;
 }
+

@@ -4,14 +4,12 @@ padding: 20px;
 background-color:rgb(239, 228, 250);
 }
 .category-title{
-    font-family: 'Manrope';
 font-style: normal;
 font-weight: 800;
 font-size: 20px;
 color: #474747;
 }
 .job-category p{
-    font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;

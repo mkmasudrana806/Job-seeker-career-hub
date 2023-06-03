@@ -1,0 +1,42 @@
+.single-job-cart{
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    padding: 20px;
+}
+.single-job-cart:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.single-job-cart img{
+    height: 40px;
+    margin-bottom: 20px;
+}
+.job-title{
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+color: #474747;
+}
+.company-name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #575757;
+}
+.job-role{
+font-size: 18px;
+color: #757575;
+}
+.dollar-sign{
+    font-weight: 900;
+     margin-right: 5px;
+}
+.job-footer{
+    display: flex;
+}
+.job-location{
+    margin-right: 30px;
+}
+.tags-container{
+    display: flex;
+    margin-right: 20px;
+}

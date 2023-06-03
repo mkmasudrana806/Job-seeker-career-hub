@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./header.css";
 import { Container, NavLink, Navbar } from "react-bootstrap";
 
@@ -13,7 +14,7 @@ const Header = () => {
             <NavLink>Blog</NavLink>
           </div>
         </div>
-        <div className="primary-btn">Start Applying</div>
+        <Link className="primary-btn">Start Applying</Link>
         <Navbar.Toggle
           aria-controls="navbarScroll"
           className="d-block d-lg-none d-md-none"

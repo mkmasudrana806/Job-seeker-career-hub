@@ -3,7 +3,6 @@ import "./jobCategory.css";
 
 const JobCategory = ({ category }) => {
   const { icon, title, jobNumber } = category;
-  console.log(icon);
   return (
     <div className="job-category">
       <img src={icon} alt="" />

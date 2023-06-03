@@ -5,6 +5,8 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ContextProvider from "./contextProvider/ContextProvider";
+import '@fortawesome/fontawesome-svg-core/styles.css';
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
