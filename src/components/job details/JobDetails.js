@@ -76,7 +76,7 @@ const JobDetails = () => {
             </p>
           </div>
         </Col>
-        <Col xs="8" sm="8" md="6" lg="5" xl="4" className="">
+        <Col style={{ margin: "0 auto" }} xs="10" sm="10" md="6" lg="5" xl="4">
           <div className="job-details-cart p-4 mt-4">
             <h3>Job Details</h3>
             <hr />

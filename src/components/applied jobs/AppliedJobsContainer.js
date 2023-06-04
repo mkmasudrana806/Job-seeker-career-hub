@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import AppliedJobCart from "./AppliedJobCart";
 import { getFromDB } from "../../utilities/DB/LocalDbApp";
 import ComboBox from "../combo box/ComboBox";
-import { Link } from "react-router-dom";
+
 
 const AppliedJobsContainer = () => {
   let [jobs, setJobs] = useState([]);

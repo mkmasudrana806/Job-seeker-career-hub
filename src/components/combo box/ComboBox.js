@@ -1,16 +1,22 @@
-import React, { useState } from "react";
+import React from "react";
 import Select from "react-select";
 const ComboBox = () => {
   const option = [{ value: "Filter By", label: "Filter By" }];
   const options = [
-    { value: "chocolate", label: "Chocolate" },
-    { value: "strawberry", label: "Strawberry" },
-    { value: "vanilla", label: "Vanilla" },
+    { value: "Full time", label: "Full Time Job" },
+    { value: "Remote", label: "Remote" },
+    { value: "High Salary", label: "High Salary" },
+    { value: "Top Companies", label: "Top Companies" },
   ];
+  // handle get selected value 
+  const handleGetSelectedValue = (event) => {
+    console.log(event.value);
+  
+  }
 
   return (
     <div>
-      <Select defaultValue={option} options={options} />
+      <Select onChange={handleGetSelectedValue} defaultValue={option} options={options} />
     </div>
   );
 };

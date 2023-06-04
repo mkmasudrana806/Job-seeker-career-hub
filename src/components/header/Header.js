@@ -11,7 +11,9 @@ const Header = () => {
     <Container>
       <div className="header">
         <div className="d-flex justify-center align-items-center">
-          <h2 className="nav-title">Job Seekr</h2>
+          <Link to="/home" className="nav-title">
+            Job Seekr
+          </Link>
           <div className="nav-items ms-0 ms-sm-2 ms-md-3 ms-lg-4">
             <NavLink onClick={() => handleNavigate("/home")}>Home</NavLink>
             <NavLink onClick={() => handleNavigate("/statistics")}>

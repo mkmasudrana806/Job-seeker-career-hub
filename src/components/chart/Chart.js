@@ -24,7 +24,7 @@ function Chart() {
   return (
     <LineChart
       style={{ margin: "100px auto" }}
-      width={500}
+      width={480}
       height={300}
       data={data}
     >

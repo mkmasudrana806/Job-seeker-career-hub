@@ -6,6 +6,7 @@ import JobDetails from "../job details/JobDetails";
 import AppliedJobs from "../applied jobs/AppliedJobsContainer";
 import Chart from "../chart/Chart";
 import Blog from "../blogs/Blog";
+import NotFound from "../not found page/NotFound";
 
 export const router = createBrowserRouter([
   {
@@ -39,9 +40,10 @@ export const router = createBrowserRouter([
         path: "/blog",
         element: <Blog></Blog>,
       },
+      {
+        path:'*',
+        element: <NotFound></NotFound>
+      }
     ],
-  },
-  {
-    path: "*",
   },
 ]);

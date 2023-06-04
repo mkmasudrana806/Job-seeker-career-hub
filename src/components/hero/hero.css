@@ -12,3 +12,31 @@ font-weight: 800;
 font-size: 70px;
 color: #1A1919;
 }
+
+@media screen and (max-width:576px) {
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hero-title{
+        font-size: 50px;
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px) {
+  .hero{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero-title{
+    font-size: 55px;
+  }
+}
+@media screen and (min-width:769px) and (max-width:991px) {
+    .hero-title{
+      font-size: 65px;
+    }
+    .hero{
+        column-gap: 0px;
+    }
+  }

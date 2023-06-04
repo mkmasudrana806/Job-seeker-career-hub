@@ -41,10 +41,32 @@
         padding: 10px;
         margin-bottom: 25px;
         column-gap:10px;
+        display: grid;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .applied-cart-body{
+        display: grid;
     }
     .apllied-jobs-container{
         margin-top: 50px;
-        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        padding: 5px;
+    }
+}
+@media  screen and (min-width:577px) and (max-width:768px){
+    .applied-job-cart{
+        padding: 10px;
+        margin-bottom: 25px;
+        column-gap:10px;
+        display: grid;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .applied-cart-body{
+        display: grid;
+    }
+    .apllied-jobs-container{
+        margin-top: 50px;
         padding: 5px;
     }
 }

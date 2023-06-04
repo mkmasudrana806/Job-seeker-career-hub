@@ -27,7 +27,7 @@ const AppliedJobCart = ({ job }) => {
           <h3 className="job-title">{jobTitle}</h3>
           <h4 className="job-role">{jobRole}</h4>
           <p className="company-name">{companyName}</p>
-          <div className="d-none">
+          <div className="tags-container">
             {jobTags.map((tag, index) => (
               <Tags tag={tag} key={index}></Tags>
             ))}

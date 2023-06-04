@@ -7,7 +7,7 @@ const Blog = () => {
       {/*
             redme file and use bullet point and descrive project 
             add livesite and repo link 
-            404 avoid by reloading after developing
+
             filter out remote and full time job
             * additinal filter by hight salary or top companies or  */}
       <article>

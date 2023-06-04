@@ -3,3 +3,14 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 }
+
+@media screen and (max-width:576px) {
+    .jobs-container{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px) {
+    .jobs-container{
+        grid-template-columns: 1fr;
+    }
+}
