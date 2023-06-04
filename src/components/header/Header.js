@@ -1,12 +1,11 @@
 import { Link, useNavigate } from "react-router-dom";
 import "./header.css";
 import { Container, NavLink, Navbar } from "react-bootstrap";
-import { toast } from "react-toastify";
+
 
 const Header = () => {
   const navigate = useNavigate();
   const hanldeNavigate = (route) => {
-    toast("hi masud rana");
     navigate(route);
   };
   return (
