@@ -3,6 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import AppliedJobCart from "./AppliedJobCart";
 import { getFromDB } from "../../utilities/DB/LocalDbApp";
 import ComboBox from "../combo box/ComboBox";
+import { Link } from "react-router-dom";
 
 const AppliedJobsContainer = () => {
   let [jobs, setJobs] = useState([]);
@@ -13,6 +14,11 @@ const AppliedJobsContainer = () => {
     }
     setToState();
   }, []);
+  // handle to clear local storage
+  const hanldeClearLocalStorage = () => {
+    localStorage.clear("applied_job");
+    setJobs([]);
+  };
   return (
     <div className="apllied-jobs-container">
       <Row>
@@ -33,11 +39,29 @@ const AppliedJobsContainer = () => {
             </h2>
           )}
           {jobs?.length ? (
-            <div className="d-flex justify-content-end">
-              <div style={{ width: "120px" }}>
-                <ComboBox></ComboBox>
+            <>
+              <div className="d-flex justify-content-end">
+                <div style={{ width: "120px" }}>
+                  <ComboBox></ComboBox>
+                </div>
               </div>
-            </div>
+              <div className="d-flex justify-content-end">
+                <div style={{ width: "120px" }}>
+                  <button
+                    onClick={hanldeClearLocalStorage}
+                    style={{
+                      width: "120px",
+                      height: "40px",
+                      border: "1px solid #bbbaba",
+                      borderRadius: "5px",
+                      marginTop: "10px",
+                    }}
+                  >
+                    Clear
+                  </button>
+                </div>
+              </div>
+            </>
           ) : (
             ""
           )}

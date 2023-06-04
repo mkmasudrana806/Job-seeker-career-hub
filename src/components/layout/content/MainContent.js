@@ -47,7 +47,7 @@ const MainContent = () => {
         ""
       ) : (
         <Link onClick={handleViewAllJob} className="primary-btn view-all-btn">
-          View All
+          Show All Job
         </Link>
       )}
     </div>

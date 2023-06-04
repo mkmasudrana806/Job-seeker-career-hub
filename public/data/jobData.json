@@ -5,9 +5,9 @@
         "jobTitle": "Software Engineer",
         "jobRole": "Backend Developer",
         "jobTags": [
+            "Full time",
             "Java",
-            "Spring",
-            "RESTful API"
+            "Spring"
         ],
         "jobLocation": "San Francisco, CA",
         "salary": {
@@ -41,8 +41,8 @@
         "jobTitle": "Data Scientist",
         "jobRole": "Machine Learning Engineer",
         "jobTags": [
+            "Onsite",
             "Python",
-            "TensorFlow",
             "Data Analysis"
         ],
         "jobLocation": "New York, NY",
@@ -77,8 +77,8 @@
         "jobTitle": "Marketing Manager",
         "jobRole": "Digital Marketing Specialist",
         "jobTags": [
+            "Remote",
             "SEO",
-            "Social Media",
             "Content Marketing"
         ],
         "jobLocation": "Los Angeles, CA",
@@ -113,8 +113,8 @@
         "jobTitle": "Sales Manager",
         "jobRole": "Regional Sales Director",
         "jobTags": [
+            "Remote",
             "B2B Sales",
-            "Client Relationship",
             "Sales Strategy"
         ],
         "jobLocation": "Chicago, IL",
@@ -149,7 +149,7 @@
         "jobTitle": "Graphic Designer",
         "jobRole": "UI/UX Designer",
         "jobTags": [
-            "Adobe Creative Suite",
+            "Full Time",
             "Wireframing",
             "Responsive Design"
         ],
@@ -185,9 +185,9 @@
         "jobTitle": "Financial Analyst",
         "jobRole": "Investment Analyst",
         "jobTags": [
+            "Remote",
             "Financial Modeling",
-            "Investment Research",
-            "Portfolio Management"
+            "Investment Research"
         ],
         "jobLocation": "London, UK",
         "salary": {
@@ -221,9 +221,9 @@
         "jobTitle": "Human Resources Manager",
         "jobRole": "Talent Acquisition Specialist",
         "jobTags": [
+            "Onsite",
             "Recruitment",
-            "Interviewing",
-            "HR Policies"
+            "Interviewing"
         ],
         "jobLocation": "Toronto, Canada",
         "salary": {
@@ -257,8 +257,8 @@
         "jobTitle": "Product Manager",
         "jobRole": "Product Owner",
         "jobTags": [
+            "Full Time",
             "Product Development",
-            "Agile Methodology",
             "Market Research"
         ],
         "jobLocation": "Berlin, Germany",

@@ -1,11 +1,10 @@
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../layout/main/Main";
-import Home from "../home/Home";
 import MainContent from "../layout/content/MainContent";
 import JobDetails from "../job details/JobDetails";
 import AppliedJobs from "../applied jobs/AppliedJobsContainer";
-import Jobs from "../jobs/Jobs";
+import Chart from "../chart/Chart";
 
 export const router = createBrowserRouter([
   {
@@ -31,10 +30,10 @@ export const router = createBrowserRouter([
         path: "/applied-jobs",
         element: <AppliedJobs></AppliedJobs>,
       },
+      {
+        path: "/statistics",
+        element: <Chart></Chart>,
+      },
     ],
-  },
-  {
-    path: "/home",
-    element: <Home></Home>,
   },
 ]);
