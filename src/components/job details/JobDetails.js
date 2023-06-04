@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { JobsContext } from "../../contextProvider/ContextProvider";
 import { Col, Row } from "react-bootstrap";
@@ -11,26 +11,31 @@ import {
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
 import "./jobDetails.css";
+import { setToDB } from "../../utilities/DB/LocalDbApp";
 
 const JobDetails = () => {
   const id = useLoaderData();
   const { jobs } = useContext(JobsContext);
-
   let specificJob = jobs.find((job) => job.jobID === id);
   const job = specificJob || {};
-  console.log(job);
   let {
     jobDescription,
     responsibilities,
     educationalRequirement,
     experience,
     salary,
+    jobID,
     jobTitle,
     contactInformation,
     requirements,
   } = job;
   requirements = requirements || [];
   responsibilities = responsibilities || [];
+
+  // handle apply job and set to the local storage
+  const handleApplyJob = (job) => {
+    setToDB(job);
+  };
 
   return (
     <div className="job-details">
@@ -103,11 +108,12 @@ const JobDetails = () => {
             </p>
           </div>
           <button
+            onClick={() => handleApplyJob(job)}
             style={{
               border: "none",
               marginTop: "20px",
               width: "100%",
-              justifyContent:"center",
+              justifyContent: "center",
             }}
             className="primary-btn text-center"
           >
