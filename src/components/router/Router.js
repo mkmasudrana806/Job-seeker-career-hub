@@ -5,6 +5,7 @@ import Home from "../home/Home";
 import MainContent from "../layout/content/MainContent";
 import JobDetails from "../job details/JobDetails";
 import AppliedJobs from "../applied jobs/AppliedJobsContainer";
+import Jobs from "../jobs/Jobs";
 
 export const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ export const router = createBrowserRouter([
     children: [
       {
         path: "/",
+        element: <MainContent></MainContent>,
+      },
+      {
+        path: "/home",
         element: <MainContent></MainContent>,
       },
       {

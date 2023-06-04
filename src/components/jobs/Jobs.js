@@ -4,7 +4,7 @@ import SingleJobCart from "./SingleJobCart";
 import "./jobs.css";
 
 
-const Jobs = ({ value = 4 }) => {
+const Jobs = ({ value }) => {
   let { jobs } = useContext(JobsContext);
   jobs = jobs.slice(0, value);
   return (

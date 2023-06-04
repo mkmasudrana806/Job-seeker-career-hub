@@ -1,13 +1,19 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { JobsContext } from "../../../contextProvider/ContextProvider";
 import Hero from "../../hero/Hero";
 import Categories from "../../job categories/Categories";
 import Jobs from "../../jobs/Jobs";
-import { Link } from "react-router-dom";
-import './mainContent.css';
+import { Link, Outlet } from "react-router-dom";
+import "./mainContent.css";
 
 const MainContent = () => {
-  const { hero } = useContext(JobsContext);
+  const { hero, jobs } = useContext(JobsContext);
+  const [showAllJob, setShowAllJob] = useState(false);
+
+  // handle jobs to show some jobs and then based on view button show all job
+  const handleViewAllJob = () => {
+    setShowAllJob(true);
+  };
   return (
     <div>
       <div className="hero-section">
@@ -31,9 +37,19 @@ const MainContent = () => {
             need. Its your future.
           </p>
         </div>
-        <Jobs></Jobs>
+        {showAllJob ? (
+          <Jobs value={jobs.length}></Jobs>
+        ) : (
+          <Jobs value={4}></Jobs>
+        )}
       </div>
-      <Link className="primary-btn view-all-btn">View All</Link>
+      {showAllJob ? (
+        ""
+      ) : (
+        <Link onClick={handleViewAllJob} className="primary-btn view-all-btn">
+          View All
+        </Link>
+      )}
     </div>
   );
 };
