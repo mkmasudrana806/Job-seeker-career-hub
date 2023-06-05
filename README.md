@@ -5,7 +5,7 @@ The webpage 'joob seekr' is a single page web application build in using reacjs.
 ## Project Live site and Repository Link
 
 Live Site:
-Repo Link:
+Repo Link: https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-mkmasudrana806/
 
 ## Technologies used in this project
 
@@ -23,6 +23,7 @@ Repo Link:
 - ReCharts
 - Toastify
 - localStorage
+- Outlet
 
 ## Features of This Project
 
@@ -31,3 +32,4 @@ Repo Link:
 - All Devices Responsive
 - Single page Web Application
 - Smoth Data Loading
+- Dynamically Route

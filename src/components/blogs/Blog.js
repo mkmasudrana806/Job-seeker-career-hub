@@ -4,12 +4,6 @@ import "./blog.css";
 const Blog = () => {
   return (
     <div className="blogs">
-      {/*
-            redme file and use bullet point and descrive project 
-            add livesite and repo link 
-
-            filter out remote and full time job
-            * additinal filter by hight salary or top companies or  */}
       <article>
         <h3>When you should use Context Api? </h3>
         <p>
